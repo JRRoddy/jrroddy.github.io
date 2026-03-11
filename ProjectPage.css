@@ -1,0 +1,538 @@
+
+
+#main-header{
+
+    background-color: #333 ;
+    height: auto ;
+    width:  30%;
+    text-align: center;
+    color: wheat;
+    margin-top: 10%; 
+    margin-bottom: 10%;
+ 
+ } 
+ .header-text{
+     font-size: 250%;
+     margin: 5%;
+ }
+ body{
+     background-color: black;
+ }
+ 
+ #main-container{
+     margin-top: 5%;
+     height: auto;
+     width: 100%;
+ }
+ 
+ .seperator{
+     width: 100%;
+     height: fit-content;
+     margin-bottom: 2%;
+     text-align: center;
+   
+ 
+ }
+ .seperator-text{
+     
+     font-size: xx-large;
+     color: white;
+ }
+ 
+ 
+ 
+ #grid-item{
+ 
+     height: fit-content;
+     display: block;
+     width: fit-content;
+     
+ 
+ }
+ 
+ .item-title{
+     text-align: center;
+     color: azure;
+     background-color: #333;
+     width: 100%;
+     height: fit-content;
+     margin: auto;
+     margin-bottom: 0; 
+ }
+ 
+ .grid-container{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     gap: 4%;
+     text-align: center;
+     padding: 3%;
+    
+ }
+ .project-video{
+  
+  
+    width: 100%;
+    height: 100%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 1.5%;
+    display: block;
+    margin-bottom: 1.5%;
+
+
+}
+.hidden{
+   display: none;
+}
+ .project-link{
+     text-decoration: none;
+     color: rgb(217, 214, 214);
+     border-left: solid white 1px;
+     border-right: solid white 1px;
+     font-size: larger;
+     padding: 8px;
+ }
+ .project-desc{
+    color: rgb(217, 214, 214);
+    font-size: larger;
+    text-align: center; 
+    margin: 0; 
+}
+.git-link{
+     text-decoration: none;
+     height: fit-content;
+     color: white;
+     width: 100%;
+}
+
+.git-link:hover
+{
+  
+     text-decoration: underline;
+
+}
+.git-link-container:hover
+{
+    transform: translateY(-2px);
+    background-color: rgb(100, 100,100,0.75) ;
+   
+
+    
+}
+
+.git-link-container
+{
+
+    margin: auto;
+    align-self: center;
+    text-align: center;
+     background-color: rgb(100, 100,100,0.3) ;
+     border-radius: 20px;
+     border:1px solid rgb(255, 255,255,0.12) ; 
+     width: 50%;
+     height: fit-content;
+     
+}
+
+.project-info
+{
+   margin-bottom: 5%;
+   margin-left: 1%;
+   width: 28%;
+   height: auto ; 
+      border-radius: 10px;
+   border: solid 1px;
+   background-color:  rgba(20, 24, 32, 0.5);
+ 
+
+}
+.project-info-header
+{
+   text-align: left;
+   color: white; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 5%;
+   margin-bottom: 5%;
+
+}
+
+
+.project-type
+{
+ 
+   text-align: center;
+   width: 100%;
+   height: fit-content;
+   display: inline-flex;
+
+
+}
+.project-def
+{
+   margin-left: 5%;
+   display: flex;
+   color: white;
+   background-color:white;
+   color: black;
+   border: solid 1px;
+   border-radius: 3px;
+   padding: 2px;
+
+   margin-right: 0%;
+}
+.project-motive
+{
+   display: flex;
+   color: white;
+   background-color: rgb(30, 30, 30);
+   border: solid 1px;
+   border-color: rgb(30, 30, 30);
+   border-radius: 3px;
+   padding: 2px;
+   margin-left: 0%;
+}
+
+.project-meta
+{
+ width: 100%;
+ height: fit-content;
+
+}
+
+.project-meta-item
+{
+    display: flex;
+    margin-top: 1%;
+    color: white;
+    justify-content: space-between;
+   
+}
+.meta-left
+{
+  color: rgb(255, 255,255,0.7);
+  padding-left: 10%;
+}
+
+.meta-right
+{
+ color: rgb(255, 255,255,0.85);
+ padding-right: 10%;
+
+}
+.project-skills-grid
+{
+   width: 80%;
+   display: grid;
+   grid-template-columns: repeat(1, 100%);
+   margin: auto;
+   text-align: center;
+   gap: 5%;
+   
+
+}
+.project-skills-item
+{
+
+     background: rgb(20, 25, 35);
+     border-color: rgb(20, 25, 35);;
+     border-radius: 10px;
+     display: flex; 
+     border: solid 3px;
+ 
+}
+
+.item-content
+{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+}
+.project-skills-header
+{
+  color: white;
+
+   
+}
+
+.project-skills-dropdown
+{
+  padding-left: 20%;
+  
+ 
+} 
+.project-skills-view
+{
+
+    color: white;
+}
+
+.project-skills-item:hover
+{
+   cursor: pointer;
+   
+   animation: skillsAnim ;
+   animation-duration: 2s;
+   
+  
+}
+
+@keyframes skillsAnim {
+  0%   {border-top-color: cyan;}
+  25%  {border-left-color: cyan;}
+  50%  {border-bottom-color: cyan;}
+  90% {border-right-color: cyan;}
+}
+
+
+.hide{
+ 
+  display: none;
+}
+
+.skill-view-show{
+    display: flex;
+}
+
+.skills-view
+{
+  
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    z-index: 10000;
+
+    
+}
+
+.skill-view-section
+{
+    
+    width: 40%;
+    height: 45%;
+    margin: auto;
+
+    background-color: rgb(25, 35, 53);
+    border: solid 3px;
+    border-color:rgb(255, 255, 255,0.5); ;
+    border-radius: 20px;
+}
+
+.skill-view-desc
+{
+
+  color: white;
+  margin: 0;
+  display: inline;
+  margin-left: 2%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: fit-content;
+  height: fit-content;
+  
+
+}
+
+.skill-view-grid-item
+{
+
+  display: -webkit-inline-box;
+
+   
+}
+
+.skill-grid
+{
+    margin-right:2% ;
+   
+}
+
+
+
+.skill-view-item-name
+{
+
+   color: white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skill-view-content
+{ 
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+     
+}
+
+.scrolling-container
+{
+   
+
+     margin-bottom: 5%;
+     
+
+}
+
+
+.centre-content-container
+{
+   display: flex;
+   justify-content: center;
+  
+
+}
+.centre-content
+{  
+    
+      width: 50%;
+     
+      border: solid 1px rgb(20, 25, 35,0.8);
+    
+}
+
+.left-button
+{
+   
+      
+}
+.right-button
+{
+
+}
+.techincal-header-left
+{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+
+
+  
+}
+
+.technical-header-text
+{
+    color: white;
+    padding-left: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.technical-header
+{
+  
+  background-color: #2a2626;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+
+}
+
+.X-button-container
+{
+    display: flex;
+    justify-content: right;
+    height: fit-content;
+    margin-top: 5px;
+    margin-right: 8px;
+    
+}
+.X-button
+{
+   background-color: #333;
+   color: white;
+   border: solid 1px azure;
+   border-radius: 10px;
+   text-align: center;
+   width: 8%;
+   cursor: pointer;
+   
+  
+   
+  
+}
+@media  screen and (max-width:915px) {
+    
+      .skill-view-desc
+      {
+          font-size: smaller;
+
+      }
+       .skill-view-item-name
+      {
+          font-size: smaller;
+
+      }
+        .skill-view-item-img
+      {
+            width: 50px;
+            height: 50px;
+      }
+
+      .technical-header-text
+      {
+  
+          font-size: medium;
+
+      }
+      .X-button
+      {
+        width: 15%;
+      }
+
+}
+
+@media  screen and (max-width:700px) {
+    
+      .skill-view-desc
+      {
+          font-size: medium;
+          margin-top: 2%;
+          margin-bottom: 1%;
+
+      }
+       .skill-view-item-name
+      {
+          font-size: smaller;
+
+      }
+        .skill-view-item-img
+      {
+            width: 50px;
+            height: 50px;
+      }
+
+     
+      .skill-view-content
+      {
+          flex-direction: column;
+          
+         
+      }
+      .technical-header-text
+      {
+        padding-left: 1rem;
+          font-size: small;
+
+      }
+      .X-button
+      {
+        width: 15%;
+      }
+
+}
