@@ -1,0 +1,468 @@
+
+
+#main-header{
+
+   height: auto ;
+   width:  100%;
+   text-align: center;
+   color: wheat;
+   margin-top: 0%; 
+   margin-bottom: 2%;
+
+} 
+.header-text{
+    font-size: 250%;
+}
+
+body
+{
+  background-color: black;
+
+}
+#main-container{
+    margin-top: 5%;
+    height: auto;
+    width: 100%;
+}
+
+.seperator{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 2%;
+    text-align: center;
+  
+
+}
+.seperator-text{
+    
+    font-size: xx-large;
+    color: white;
+    margin-top: 5%;
+}
+
+
+
+#grid-item{
+    
+    height: fit-content;
+    display: block;
+    width: fit-content;
+    position: relative;
+
+}
+
+.hide{
+ 
+  display: none;
+}
+
+
+
+
+.item-title{
+    text-align: left;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    margin: 0px;
+    position: absolute;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 0%; 
+    top: 78%;
+    padding-left: 3%;
+    z-index: 2;
+
+}
+
+.small-project-item-desc{
+  
+   position: absolute;
+   margin: 0px;
+
+   text-align: left;
+   color: white;
+   width: 100%;
+   left: 0%;
+   top:78%;
+   padding-left: 3%;
+   font-size:large;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   z-index: 2;
+   
+
+}
+
+.small-project-item-title{
+    text-align: left;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    margin: 0px;
+    position: absolute;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 0%; 
+    top: 73%;
+    padding-left: 3%;
+    z-index: 2;
+
+}
+
+
+.grid-descriptor-container
+{
+   display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto,auto;
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+    gap: 5%;
+    width: 80%;
+    height:  fit-content;
+    text-align: center;
+   
+    padding-top: 0;
+    margin-top: 0; 
+
+}
+.small-project-image
+{
+   padding: 0%;
+   width: 100%;
+   height: 100%;
+   
+   margin: 0%;
+ 
+   margin-bottom: 5%;
+
+
+
+}
+.item-desc{
+  
+   position: absolute;
+   margin: 0px;
+
+   text-align: left;
+   color: white;
+   width: 100%;
+   left: 0%;
+   top: 83%;
+   padding-left: 3%;
+   font-size:large;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   z-index: 2;
+   
+
+}
+
+.project-long-desc
+{
+  
+   color: white;
+  margin-top: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto,auto;
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+    gap: 5%;
+    width: 80%;
+    height:  fit-content;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0; 
+   
+}
+.project-video{
+  
+  
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 1.5%;
+    display: block;
+    margin-bottom: 1.5%;
+ 
+
+}
+
+.project-link{
+     
+  
+     position: absolute;
+     
+     left: 15%;
+     top: 90%;
+     padding: 0%;
+     text-decoration: none;
+     color: white;
+     margin:  0px;
+     background-color: rgb(100, 100,100,0.3) ;
+     border-radius: 10px;
+     border:1px solid rgb(255, 255,255,0.12) ; 
+     width: 75%;
+     height: fit-content;
+     font-size: larger;
+ 
+     z-index: 2;
+}
+
+.out-of-focus{
+
+   filter: blur(2px);
+  
+
+}
+
+
+
+
+.project-link:hover{
+    transform: translateY(-2px);
+    
+    background-color: rgb(100, 100,100,0.75) ;
+
+
+}
+
+
+.project-image
+{
+   padding: 0%;
+   width: 100%;
+   height: 100%;
+   
+   margin: 0%;
+ 
+  
+  
+} 
+
+   
+
+.main-hero-container
+{
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+.main-heroText
+{
+  
+  width: 100%;
+  height: 100%;
+  font-size: 300%;
+  color: rgb(203, 213, 225); 
+  margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+.hero-headerText-container{
+  width: 100%;
+  height: 100%;
+ 
+  
+}
+
+.main-heroHeaderText {
+  
+  font-size: 150%;
+  font-weight: 900;
+  color: rgb(203, 213, 225);
+}
+
+
+.hero-links
+{
+  margin-bottom: 5%;
+  width: 100%;
+  height: 100%;
+  display: flex;  
+  justify-content: center;
+} 
+
+.hero-link:hover{
+    transform: translateY(-2px);
+    
+    background-color: rgb(100, 100,100,0.75) ;
+
+}
+
+.hero-link
+{
+   
+     text-decoration: none;
+     color: white;
+     background-color: rgb(100, 100,100,0.3) ;
+     border-radius: 20px;
+     border:1px solid rgb(255, 255,255,0.12) ; 
+     height: 100%;
+     width: 100%;  
+     font-size: 150%;
+     margin-right: 5%;
+}
+
+
+
+@media screen and (max-width:900px){ 
+  
+    .item-desc
+    {
+      font-size: x-small;
+      
+    }
+  
+   .item-title
+   {
+     font-size: x-small;
+     top: 70%;
+   }
+
+    .small-project-item-desc
+    {
+      font-size: xx-small;
+      
+    }
+  
+   .small-project-item-title
+   {
+     font-size: x-small;
+     
+   }
+    .project-link
+   {
+    font-size: small;
+      top: 85%;
+   }
+
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1450px) { 
+  
+    .item-desc
+    {
+      font-size: medium;
+      top: 85%; 
+    }
+  
+   .item-title
+   {
+     font-size: medium;
+     
+   }
+
+    .small-project-item-desc
+    {
+      font-size: medium;
+      
+    }
+  
+   .small-project-item-title
+   {
+     font-size: large;
+     
+   }
+   .project-link
+   {
+     font-size: large;
+      top: 85%;
+      
+   }
+
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 899px) 
+{ 
+
+  
+    .project-link{
+          font-size: x-small;
+    }
+
+}
+@media only screen and (min-width:1250px) and  (max-width: 1800px)
+{
+  .project-long-desc
+  {
+
+    font-size: large;
+  }
+  
+  
+} 
+
+@media only screen and (min-width: 1000px) and (max-width: 1249px)
+{
+  .project-long-desc
+  {
+
+    font-size: medium;
+    
+  }
+  .small-project-image
+  {
+
+    margin-bottom: 1%;
+  }
+
+  .small-project-item-title
+  {
+
+    top: 75%;
+
+  }
+  .small-project-item-desc
+  {
+
+    top: 83%;
+
+  }
+
+} 
+
+
+@media only screen  and (max-width: 999.33px)
+{
+
+    .project-long-desc
+    {
+
+       font-size: small;
+
+    }
+     .small-project-item-title
+     {
+
+    top: 65%;
+
+    }
+    .small-project-item-desc
+     {
+
+    top: 75%;
+
+    }
+  
+
+
+
+}
+
