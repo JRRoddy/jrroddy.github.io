@@ -1,17 +1,17 @@
 <html>
     <head>    
-        <title>Undead-Uprising Project</title>
+        <title>Saloon-Crawl Project</title>
         <meta content="Undead-Uprising Page"> 
         <link rel="shortcut icon" href="#">
         <link rel="stylesheet" href="ProjectPage.css">
-        <link rel="stylesheet" href="SiegeSmasher.css">
+        <link rel="stylesheet" href="SaloonCrawl.css">
 
     </head>
 <header>
-   <div id = "SiegeSmasher-header">
-         <h1 class="header-text" >Siege Smasher</h1>
+   <div id = "SaloonCrawl-header">
+         <h1 class="header-text" >Saloon Crawl</h1>
              <div class="git-Link-container">
-        <a class="git-link" target="_blank" href="https://github.com/JRRoddy/SiegeSmasher">Git hub Link</a>            
+        <a class="git-link" target="_blank" href="https://github.com/JRRoddy/SaloonCrawl">Git hub Link</a>            
       </div>
       
  
@@ -25,8 +25,8 @@
         
         <div class="project-meta">
             <div class="project-meta-item">
-                 <p class="meta-left" >Multiplayer</p>
-                 <p class="meta-right" >Online CO-OP</p>
+                 <p class="meta-left" >Time Span</p>
+                 <p class="meta-right" >3 weeks </p>
             </div>
              <div class="project-meta-item">
                  <p class="meta-left" >Team Size</p>
@@ -34,11 +34,15 @@
             </div>
              <div class="project-meta-item">
                  <p class="meta-left" >Genre</p>
-                 <p class="meta-right" >3D Tower Defence</p>
+                 <p class="meta-right" >2D auto runner</p>
+            </div>
+             <div class="project-meta-item">
+                 <p class="meta-left" >Platform</p>
+                 <p class="meta-right" >Mobile</p>
             </div>
             <div class="project-meta-item">
                  <p class="meta-left" >Status</p>
-                 <p class="meta-right" >In progress</p>
+                 <p class="meta-right" >Finished</p>
             </div>
             
 
@@ -80,32 +84,26 @@
         
 
          <div class="grid-container">
-
             <div id="grid-item" class="show">
-                <h2 class = "item-title">Leaderboard</h2>
-                <video class="project-video" muted  src="/Videos/siegeSmasherLeaderBoard.mp4" controls >video</video>   
-                <p class="project-desc">
-                    Leaderboard that updates across clients based on a centralised server object that tracks player 
-                    information throughout the match. Also, displays player tag as highlighted so players 
-                    know who is who on the leaderboard allowing them to strategise based on each other's points.</p>
+                <h2 class = "item-title">Procedural Generation</h2>
+                <video class="project-video"  muted src="/Videos/SaloonCrawlProceduralGen.mp4" controls >video</video>
+                <p class="project-desc">Programmed procedural generation system that would generate terrain chunks of different biomes as the player progressed. This also included unique generation of interactable objects and enemies per biome.This system was also optimised using object pooling.</p>
             </div>
-
             <div id="grid-item" class="show">
-                <h2 class = "item-title">Tower Placement System</h2>
-                <video class="project-video"  muted src="/Videos/siegeSmasherPlacementSystem.mp4" controls >video</video>
-                <p class="project-desc">
-                    Surface based tower placement system that 
-                    will snap and rotate towers to a surface based on its bounding box.</p>
+                <h2 class = "item-title">Tutorial system</h2>
+                <video class="project-video" muted  src="/Videos/Saloon Crawl tut system.mp4" controls >video</video>   
+                <p class="project-desc">Tutorial system that would save player progress knowing which actions were successful.This ensured that the tutorial was reactive to the player and less repetitive on failure.</p>
             </div>
-         
             <div id="grid-item" class="show">
-                <h2 class = "item-title">Towers</h2>
-                <video class="project-video" muted  src="/Videos/siegeSmasherTowers.mp4" controls >video</video>
-                <p class="project-desc">
-                    Programmed all tower mechanics in the game by taking a state machine approach to how towers behave, 
-                    of which towers implement as an interface making it quick and easy to create new towers. 
-                    All tower logic is also replicated across client and server using the
-                    authoritative architecture unreal provides.</p>
+                <h2 class = "item-title">Event Manager</h2>
+                <video class="project-video" muted  src="/Videos/saloon crawl  events.mp4" controls >video</video>
+                <p class="project-desc">Programmed event generation managed by a centralised event object.This allowed for multiple in game events(such as different obstacles) to be randomly cycled during gameplay keeping things fresh and dynamic.</p>
+              
+            </div>
+            <div id="grid-item" class="show">
+                <h2 class = "item-title">Collectables Manager</h2>
+                <video class="project-video" muted  src="/Videos/Saloon crawl collectibles.mp4" controls >video</video>
+                <p class="project-desc">Programmed collectable generation based on single centralised manager object. Collectables generate in random patterns for each procedurally generated terrian chunk.</p>
               
             </div>
             
@@ -114,47 +112,49 @@
       
         
     </div>
-    <div class="skills-view hide " id="technical-skills-view" >
+     <div class="skills-view hide " id="technical-skills-view" >
            
             <div class="skill-view-section">
                 <div class="technical-header">
                    <div class="X-button-container"><button class="X-button">X</button></div>
 
                 <div class="techincal-header-left"><h2 class="technical-header-text">Technical Specification</h2></div> 
-
+                
                 </div>
                 
              <div class="skill-view-content">
                     <h2 class="skill-view-desc">Languages:</h2>   
                      <div class="skill-grid">
                    <div class="skill-view-grid-item">
-                     <p class="skill-view-item-name">C++</p>
-                     <img class="skill-view-item-img" width = "60px" height = "60px" src="Images/c++Logo.png" alt="">
+                     <p class="skill-view-item-name">C#</p>
+                     <img class="skill-view-item-img" width = "60px" height = "60px" src="Images/Csharp_Logo.jpg" alt="">
                     </div>
                     
              </div>
-   
+             
             </div>
             <div class="skill-view-content">
                     <h2 class="skill-view-desc">Game Engine:</h2>   
                 <div class="skill-grid">
                    <div class="skill-view-grid-item">
-                     <p class="skill-view-item-name">Unreal</p>
-                     <img class="skill-view-item-img" width = "60px" height = "60px" src="Images/unrealEngineIcone.png" alt="">
+                     <p class="skill-view-item-name">Unity</p>
+                     <img class="skill-view-item-img" width = "60px" height = "60px" src="Images/UnityIcon.png" alt="">
                     </div> 
                    </div>
             </div>
-            <div class="skill-view-content">
-                 <h2 class="skill-view-desc">Source Control:</h2>   
+
+
+              <div class="skill-view-content">
+                    <h2 class="skill-view-desc">Source Control:</h2>   
                 <div class="skill-grid">
                    <div class="skill-view-grid-item">
                      <p class="skill-view-item-name">GitHub</p>
                      <img class="skill-view-item-img" width = "60px" height = "60px" src="Images/gitHubIcon.png" alt="">
                     </div> 
-                </div>
+                   </div>
             </div>
-        </div>>
-    </div>>
+        </div>
+     </div>
 </body>
 
 <script type="module" src="ProjectPage.js"  ></script>
